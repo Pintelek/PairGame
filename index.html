@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./CSS/normolize.css">
+  <link rel="stylesheet" href="./CSS/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Найди пару</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Найди пару</h1>
+    <div class="menu-game">
+      <div class="wrap-size">
+        <label class="label-size">
+          <span>Количество ячеек по горизонтали</span>
+          <input id="size-1" class="i-size" type="number"></label>
+        <label class="label-size">
+          <span>Количество ячеек по вертикали</span>
+          <input id="size-2" class="i-size" type="number"></label>
+          </div>
+          <ul class="time-wrap">
+            <li class="time" id="1">
+              
+              <input class="radio" checked id="time-1" data-time="1" type="radio" name="time">
+              <label class="label-time" for="time-1">Легко</label>
+            </li>
+            <li class="time" id="2">
+              
+              <input class="radio" id="time-2" data-time="2" type="radio" name="time">
+              <label class="label-time" for="time-2">Средне</label>
+            </li>
+            <li class="time" id="3">
+              
+              <input class="radio" id="time-3" data-time="3" type="radio" name="time">
+              <label class="label-time" for="time-3">Сложно</label>
+            </li>
+          </ul>
+          <button class="start-game">Start</button>
+      </div>
+    </div>
+   
+    <!-- <ul class="board-game"> -->
+      
+     
+    <!-- </ul> -->
+  </div>
+  <script src="./JS/csrypt.js"></script>
+</body>
+</html>
